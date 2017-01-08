@@ -1,0 +1,26 @@
+.zimagery .zimagery-overlay{
+    height: 88vh;
+}
+#footer .wrapper{
+    text-align: center;
+}
+
+#footer .first-footer-column .footer-links--big, #footer .last-footer-column .footer-links--big{
+    padding: 0;
+}
+
+#footer .first-footer-column, #footer .last-footer-column{
+    padding: 0;
+}
+
+search-bar-icon mr5{
+    text-align: center;
+}
+html, body, #map {
+    height:100%;
+    margin:0px;
+    padding: 0px
+}
+#header{
+    margin-bottom: 20px;
+}
