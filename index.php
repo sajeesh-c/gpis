@@ -109,7 +109,7 @@
                             </div>
                         </div>
                         <div class="flex-shrink-0 plr0i">
-                            <div role="button" tabindex="0" id="search_button" class="left ui red button" onclick="jQuery('#search_form').submit()">
+                            <div role="button" tabindex="0" id="search_button" class="left ui red button" onclick="codeAddress();">
                                 Search
                             </div>
 

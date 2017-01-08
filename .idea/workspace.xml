@@ -18,14 +18,14 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+            <state relative-caret-position="312">
+              <caret line="111" column="129" lean-forward="false" selection-start-line="111" selection-start-column="129" selection-end-line="111" selection-end-column="129" />
               <folding>
-                <marker date="1483860875525" expanded="true" signature="6078:6115" ph="..." />
-                <marker date="1483860875525" expanded="true" signature="6250:6287" ph="..." />
-                <marker date="1483860875525" expanded="true" signature="6420:6457" ph="..." />
-                <marker date="1483860875525" expanded="true" signature="6600:6637" ph="..." />
-                <marker date="1483860875525" expanded="true" signature="6773:6810" ph="..." />
+                <marker date="1483880689352" expanded="true" signature="6061:6098" ph="..." />
+                <marker date="1483880689352" expanded="true" signature="6233:6270" ph="..." />
+                <marker date="1483880689352" expanded="true" signature="6403:6440" ph="..." />
+                <marker date="1483880689352" expanded="true" signature="6583:6620" ph="..." />
+                <marker date="1483880689352" expanded="true" signature="6756:6793" ph="..." />
               </folding>
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="PlaceInfo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PlaceInfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="95" column="54" lean-forward="true" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
+            <state relative-caret-position="317">
+              <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file leaf-file-name="Place_Autocomplete.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skin/js/Place_Autocomplete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="471">
+              <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="PlaceSearch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skin/js/PlaceSearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="420">
+              <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -64,8 +64,8 @@
       <file leaf-file-name="custom_styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skin/css/custom_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="476">
+              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -105,12 +105,12 @@
         <option value="$PROJECT_DIR$/skin/css/styles.css" />
         <option value="$PROJECT_DIR$/Page2/PlaceInfo.html" />
         <option value="$PROJECT_DIR$/PlaceInfo.html" />
-        <option value="$PROJECT_DIR$/skin/css/custom_styles.css" />
         <option value="$PROJECT_DIR$/skin/js/nightmapview.js" />
         <option value="$PROJECT_DIR$/skin/js/PlaceSearch.js" />
-        <option value="$PROJECT_DIR$/skin/js/Place_Autocomplete.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/PlaceInfo.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/skin/css/custom_styles.css" />
+        <option value="$PROJECT_DIR$/skin/js/Place_Autocomplete.js" />
       </list>
     </option>
   </component>
@@ -205,20 +205,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gpis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gpis" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Page2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -299,16 +285,16 @@
       <workItem from="1483767643493" duration="6118000" />
       <workItem from="1483774605891" duration="29318000" />
       <workItem from="1483866193215" duration="48000" />
-      <workItem from="1483866833082" duration="5979000" />
+      <workItem from="1483866833082" duration="13290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41463000" />
+    <option name="totallyTimeSpent" value="48774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23499268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -347,11 +333,11 @@
         <state relative-caret-position="1088">
           <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
           <folding>
-            <marker date="1483860875525" expanded="true" signature="6078:6115" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6250:6287" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6420:6457" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6600:6637" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6773:6810" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6061:6098" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6233:6270" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6403:6440" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6583:6620" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6756:6793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -377,11 +363,11 @@
         <state relative-caret-position="1088">
           <caret line="64" column="81" lean-forward="false" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
           <folding>
-            <marker date="1483860875525" expanded="true" signature="6078:6115" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6250:6287" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6420:6457" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6600:6637" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6773:6810" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6061:6098" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6233:6270" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6403:6440" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6583:6620" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6756:6793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -415,11 +401,11 @@
         <state relative-caret-position="1700">
           <caret line="100" column="36" lean-forward="false" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
           <folding>
-            <marker date="1483860875525" expanded="true" signature="6078:6115" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6250:6287" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6420:6457" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6600:6637" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6773:6810" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6061:6098" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6233:6270" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6403:6440" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6583:6620" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6756:6793" ph="..." />
           </folding>
         </state>
       </provider>
@@ -498,36 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skin/css/custom_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
-          <folding>
-            <marker date="1483860875525" expanded="true" signature="6078:6115" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6250:6287" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6420:6457" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6600:6637" ph="..." />
-            <marker date="1483860875525" expanded="true" signature="6773:6810" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PlaceInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="95" column="54" lean-forward="true" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skin/js/nightmapview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -536,18 +492,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="111" column="129" lean-forward="false" selection-start-line="111" selection-start-column="129" selection-end-line="111" selection-end-column="129" />
+          <folding>
+            <marker date="1483880689352" expanded="true" signature="6061:6098" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6233:6270" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6403:6440" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6583:6620" ph="..." />
+            <marker date="1483880689352" expanded="true" signature="6756:6793" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlaceInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/skin/js/PlaceSearch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="420">
+          <caret line="92" column="27" lean-forward="true" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skin/css/custom_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skin/js/Place_Autocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="471">
+          <caret line="37" column="7" lean-forward="false" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding />
         </state>
       </provider>

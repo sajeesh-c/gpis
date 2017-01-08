@@ -26,8 +26,6 @@
     <script type="text/javascript" charset="utf-8"
             src="./skin/js/PlaceSearch.js"></script>
 
-    <script type="text/javascript" charset="utf-8"
-            src="./skin/js/nightmapview.js"></script>
 
 </head>
 <body class=" is-responsive en">
@@ -106,7 +104,7 @@
                                             </div>
                                         </div>
                                         <div class="flex-shrink-0 plr0i">
-                                            <button type="button" id="search_button" class="left ui red button" name="search">Search</button>
+                                            <button type="button" id="search_button" class="left ui red button" name="search" onclick="codeAddress();">Search</button>
 
                                         </div>
 
@@ -132,7 +130,6 @@
     <div id="map">
     </div>
     <script type="text/javascript">
-//        initMap('<?//= $lat ?>//','<?//= $lon ?>//');
         google.maps.event.addDomListener(window, 'load', initialize('<?= $lat ?>','<?= $lon ?>'));
     </script>
 
