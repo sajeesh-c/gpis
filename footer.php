@@ -2,14 +2,11 @@
             <div class="wrapper">
                 <div class="clearfix row">
                     <div class="col-m-16 col-s-16 last-footer-column footer-column">
-                        <h3 class="hidden" tabindex="0">Policies</h3>
                         <div class="col-m-16 pleft0 pr0">
                             <ul class="footer-links--big">
-                                <li><a href=""> Privacy </a></li>
-                                <li><a href=""> Terms </a></li>
-                                <li><a href=""> Code of Conduct </a></li>
-                                <li><a href=""> Security </a></li>
-                                <li><a href=""> Sitemap </a></li>
+                                <li><a href="index.php"> Home </a></li>
+                                <li><a href="recent_search.php"> Recent Searches </a></li>
+                                <li><a href="placeinfo.php"> Search list </a></li>
                             </ul>
                             <div class="clear"></div>
                         </div>

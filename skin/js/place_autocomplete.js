@@ -11,7 +11,7 @@ google.maps.event.addDomListener(window, 'load', function () {
         jQuery('#latitude').val(latitude);
         jQuery('#longitude').val(longitude);
         isLocationUpdated = true;
-        submitForm();
+        jQuery('#search_form').submit();
     });
 });
 

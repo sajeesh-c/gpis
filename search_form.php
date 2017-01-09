@@ -22,6 +22,7 @@
             <div class="flex-shrink-0 plr0i">
                 <div role="button" tabindex="0" id="search_button" class="left ui red button" onclick=" codeAddress();">Search</div>
             </div>
+            <a class="recent_search" href="recent_search.php">Recent Searches</a>
             <div class="clear"></div>
         </div>
 

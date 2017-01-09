@@ -7,6 +7,7 @@
             <div class="wrapper">
                 <?php include("search_form.php"); ?>
                 <?php require("lib/handle_search.php"); ?>
+                <?php $searchDbHandle->insertSearchInfo(); ?>
             </div>
         </header>
     </div>

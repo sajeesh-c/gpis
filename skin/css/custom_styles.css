@@ -21,7 +21,21 @@ html, body, #map {
     background-image: url(../images/earth-map.jpg);
     background-size: cover;
 }
-
+.recent_search{
+    padding-left: 10px;
+    color: #0072bc;
+    text-decoration: underline;
+}
+.wrapper .recent_search_wrap{
+    margin: 20px 0;
+    text-align: center;
+}
+.wrapper .recent_search_wrap table{
+    margin-left: 170px;
+}
+.wrapper .recent_search_wrap table td{
+    padding: 5px;
+}
 #footer .wrapper{
     text-align: center;
 }

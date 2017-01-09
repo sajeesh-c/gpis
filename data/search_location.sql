@@ -31,15 +31,9 @@ CREATE TABLE IF NOT EXISTS `search_location` (
   `longitude` double NOT NULL,
   `search_words` varchar(255) NOT NULL,
   `search_count` int(11) NOT NULL,
-  UNIQUE KEY `lat-lon` (`latitude`) COMMENT 'unique-lat-long'
+  UNIQUE KEY `LAT-LON-UNIQUEKEY` (`latitude`) COMMENT 'unique-lat-long'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `search_location`
---
-
-INSERT INTO `search_location` (`latitude`, `longitude`, `search_words`, `search_count`) VALUES
-(48.019573, 66.92368399999998, 'Kazakhstan', 2);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

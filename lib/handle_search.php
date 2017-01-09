@@ -37,13 +37,20 @@ class Gpis_Lib_Handle_Search extends Gpis_Lib_Db_Adapter
 
     }
 
-    public function getUsersSearchInfo($limit = null)
+    /**
+     * @return mixed
+     */
+    public function getUsersSearchHistory()
     {
+        $stmt = $this->getConnection()->prepare("SELECT latitude, longitude, search_words,search_count FROM search_location");
+        $stmt->execute();
 
+        // set the resulting array to associative
+        $stmt->setFetchMode(PDO::FETCH_ASSOC);
+        return $stmt->fetchAll();
     }
 
 }
 
 $searchDbHandle = new Gpis_Lib_Handle_Search(($searchForm));
 
-$searchDbHandle->insertSearchInfo();

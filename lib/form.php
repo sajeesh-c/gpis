@@ -24,7 +24,7 @@ class Gpis_Lib_Search_Form
     public function getLatitude()
     {
 
-        return ($_POST['latitude']) ? $_POST['latitude'] : '';
+        return isset($_POST['latitude']) ? $_POST['latitude'] : '';
     }
 
     /**
@@ -32,7 +32,7 @@ class Gpis_Lib_Search_Form
      */
     public function getLongitudee()
     {
-        return ($_POST['longitude']) ? $_POST['longitude'] : '';
+        return isset($_POST['longitude']) ? $_POST['longitude'] : '';
     }
 
     /**
