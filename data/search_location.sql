@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 09, 2017 at 03:55 PM
+-- Generation Time: Jan 09, 2017 at 06:20 PM
 -- Server version: 5.5.53-0ubuntu0.14.04.1
 -- PHP Version: 5.6.28-1+deb.sury.org~trusty+1
 
@@ -27,13 +27,14 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `search_location` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `latitude` double NOT NULL,
   `longitude` double NOT NULL,
   `search_words` varchar(255) NOT NULL,
   `search_count` int(11) NOT NULL,
-  UNIQUE KEY `LAT-LON-UNIQUEKEY` (`latitude`) COMMENT 'unique-lat-long'
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `lat-lon` (`latitude`) COMMENT 'unique-lat-long'
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
