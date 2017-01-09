@@ -1,9 +1,27 @@
 body{
     overflow-y: hidden !important;
 }
+#header{
+    margin: 20px 0;
+    border: none;
+}
 .zimagery .zimagery-overlay{
     height: 88vh;
+    background: rgba(0,0,0,0.4);
 }
+.search-bar-icon .mr5{
+    text-align: center;
+}
+html, body, #map {
+    height:100%;
+    margin:0px;
+    padding: 0px
+}
+.zimagery{
+    background-image: url(../images/earth-map.jpg);
+    background-size: cover;
+}
+
 #footer .wrapper{
     text-align: center;
 }
@@ -14,16 +32,4 @@ body{
 
 #footer .first-footer-column, #footer .last-footer-column{
     padding: 0;
-}
-
-search-bar-icon mr5{
-    text-align: center;
-}
-html, body, #map {
-    height:100%;
-    margin:0px;
-    padding: 0px
-}
-#header{
-    margin-bottom: 20px;
 }
