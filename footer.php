@@ -4,9 +4,9 @@
                     <div class="col-m-16 col-s-16 last-footer-column footer-column">
                         <div class="col-m-16 pleft0 pr0">
                             <ul class="footer-links--big">
-                                <li><a href="index.php"> Home </a></li>
-                                <li><a href="recent_search.php"> Recent Searches </a></li>
-                                <li><a href="placeinfo.php"> Search list </a></li>
+                                <li><a href="<?= SITE_URL ?>index.php"> Home </a></li>
+                                <li><a href="<?= SITE_URL ?>recent_search.php"> Recent Searches </a></li>
+                                <li><a href="<?= SITE_URL ?>placeinfo.php"> Search list </a></li>
                             </ul>
                             <div class="clear"></div>
                         </div>

@@ -1,7 +1,7 @@
 <?php
-
 // add slash / at the end
 define('SITE_DIR', '/gpis/');
+define('SITE_URL', 'http://localhost/gpis/');
 define('SITE_TITLE', 'Geographic Place Information System');
 define('API_KEY','AIzaSyCHwC_ODlgBttpOgXjWUxPsboHvxMEhfUE');
 define('DB_DRIVER', 'mysql');

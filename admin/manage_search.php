@@ -1,17 +1,19 @@
-<?php require("lib/config.php"); ?>
+<?php require("../lib/config.php"); ?>
 
-<?php include("header.php"); ?>
+<?php include("../header.php"); ?>
 <div id="sticky_header" class="ui sticky">
     <header class="header  breadcrumb-present" id="header">
         <div class="wrapper">
-            <?php include("search_form.php"); ?>
-            <?php require("lib/handle_search.php"); ?>
+            <?php require("../lib/form.php"); ?>
+            <?php require("../lib/handle_search.php"); ?>
         </div>
     </header>
 </div>
+<?php //@todo admin session validation ?>
+<?php include("actions.php"); ?>
 <div class="wrapper">
     <div class="recent_search_wrap">
-        <h3>Recent Search history</h3>
+        <h3>Manage Search history</h3>
         <?php $recentSearches = $searchDbHandle->getUsersSearchHistory(); ?>
         <?php if (count($recentSearches) > 0): ?>
             <table border="1px">
@@ -20,6 +22,7 @@
                     <td><strong>Lat</strong></td>
                     <td><strong>lon</strong></td>
                     <td><strong>Search count</strong></td>
+                    <td>&nbsp;</td>
                 </tr>
                 <?php foreach ($recentSearches as $item): ?>
                     <tr>
@@ -27,6 +30,9 @@
                         <td><?= $item['latitude'] ?></td>
                         <td><?= $item['longitude'] ?></td>
                         <td><?= $item['search_count'] ?></td>
+                        <td>
+                            <a href="<?= SITE_URL ?>admin/manage_search.php?action=delete&id=<?= $item['id'] ?>">Delete</a>
+                        </td>
                     </tr>
                 <?php endforeach; ?>
             </table>
@@ -35,4 +41,4 @@
         <?php endif; ?>
     </div>
 </div>
-<?php include("footer.php"); ?>
+<?php include("../footer.php"); ?>
