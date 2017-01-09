@@ -1,0 +1,7 @@
+# IDE
+.sass_cache
+.DS_Store
+.buildpath
+.project
+.settings/
+.idea/
