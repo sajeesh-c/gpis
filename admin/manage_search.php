@@ -1,12 +1,15 @@
 <?php require("../lib/config.php"); ?>
-
+<?php include('admin_class.php');
+$admin = new Gpis_Admin();
+$admin->_authenticate();?>
 <?php include("../header.php"); ?>
 <div id="sticky_header" class="ui sticky">
     <header class="header  breadcrumb-present" id="header">
         <div class="wrapper">
-            <?php require("../lib/form.php"); ?>
+            <?php echo "Welcome ". $_SESSION['login_user'] ?>
             <?php require("../lib/handle_search.php"); ?>
         </div>
+        <a href="logout.php">Log out</a>
     </header>
 </div>
 <?php //@todo admin session validation ?>

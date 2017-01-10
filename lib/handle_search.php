@@ -65,5 +65,6 @@ class Gpis_Lib_Handle_Search extends Gpis_Lib_Db_Adapter
     }
 }
 
+$searchForm = isset($searchForm) ? $searchForm : null;
 $searchDbHandle = new Gpis_Lib_Handle_Search(($searchForm));
 

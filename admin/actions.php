@@ -1,3 +1,4 @@
+<?php $admin->_authenticate();?>
 <?php
 $action = isset($_GET['action']) ? $_GET['action'] : '';
 
