@@ -69,3 +69,17 @@ a {
 i {
     color:#6495ed
 }
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+.wrapper .recent_search_wrap{
+    text-align: center;
+}
+.wrapper .recent_search_wrap table td{
+    padding: 5px;
+}

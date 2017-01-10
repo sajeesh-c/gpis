@@ -56,7 +56,7 @@ class Gpis_Admin
     {
         //first check whether session is set or not
         if (!isset($_SESSION['login_user'])) {
-            header("location: index.php");
+            header("location: login.php");
             die();
         }
         return true;
@@ -76,7 +76,7 @@ class Gpis_Admin
 
         //insufficient data provided
         if (!isset($this->post['username']) || $this->post['username'] == '' || !isset($this->post['password']) || $this->post['password'] == '') {
-            header("location: index.php");
+            header("location: login.php");
         }
 
         //get the username and password
@@ -87,9 +87,9 @@ class Gpis_Admin
         if ($this->_check_db($username, $password)) {
             //ready to login
             $_SESSION['login_user'] = $username;
-            header("location: manage_search.php");
-        } else {
             header("location: index.php");
+        } else {
+            header("location: login.php");
         }
 
         die();
