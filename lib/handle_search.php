@@ -23,16 +23,18 @@ class Gpis_Lib_Handle_Search extends Gpis_Lib_Db_Adapter
             $keyWord = $this->_searchForm->getSearchKeyword();
             $count = 1;
 
-            // prepare sql and bind parameters
-            $stmt = $this->getConnection()->prepare("INSERT INTO search_location (latitude, longitude, search_words, search_count)
+            if( $lat && $lon && $keyWord ){
+                // prepare sql and bind parameters
+                $stmt = $this->getConnection()->prepare("INSERT INTO search_location (latitude, longitude, search_words, search_count)
                                     VALUES (:latitude, :longitude, :search_words,  :search_count)
                                     ON DUPLICATE KEY UPDATE `search_count` = `search_count` + :search_count");
-            $stmt->bindParam(':latitude', $lat);
-            $stmt->bindParam(':longitude', $lon);
-            $stmt->bindParam(':search_words', $keyWord);
-            $stmt->bindParam(':search_count', $count);
+                $stmt->bindParam(':latitude', $lat);
+                $stmt->bindParam(':longitude', $lon);
+                $stmt->bindParam(':search_words', $keyWord);
+                $stmt->bindParam(':search_count', $count);
 
-            $stmt->execute();
+                $stmt->execute();
+            }
         }
 
     }

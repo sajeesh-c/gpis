@@ -89,10 +89,9 @@ class Gpis_Admin
             $_SESSION['login_user'] = $username;
             header("location: index.php");
         } else {
-            header("location: login.php");
+            return false;
         }
 
-        die();
     }
 
 

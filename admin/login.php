@@ -7,7 +7,9 @@ if($admin->isAllowed()){
     header("location: index.php");
 }
 if (isset($_POST['submit'])) {
-    $admin->loginAction();
+    if(!$admin->loginAction()){
+        $error="Invalid username or password";
+    }
 }
 ?>
 <!DOCTYPE html>
