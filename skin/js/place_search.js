@@ -90,7 +90,7 @@ function initialize( Latitude, Longitude ) {
     var request = {
         location: center,
         radius: 2047,
-        types: ['Hospital']
+        types: ['food','hospital','health']
     };
 
     infowindow = new google.maps.InfoWindow();
