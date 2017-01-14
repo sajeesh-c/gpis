@@ -32,3 +32,15 @@ var codeAddress = function () {
         }
     });
 };
+
+jQuery(document).ready(function(){
+    jQuery('.l-pre-1').click(function(){
+        jQuery('.keyword-search-start').toggle();
+    });
+    jQuery('.start-step-label').click(function(){
+        jQuery('#location_input_sp').html((jQuery(this).find('span').text()));
+        jQuery('.keyword-search-start').toggle();
+        jQuery('#customsearch').val((jQuery(this).find('span').text()));
+        jQuery('#search_form').submit();
+    });
+});

@@ -7,6 +7,7 @@
                 <div class="logo--home"></div>
                 <h1 class="h-city-home-title">Find your destinations </h1>
                 <div class="wrapper">
+                    <?php $isHome=true; ?>
                     <?php include("search_form.php"); ?>
                 </div>
             </div>

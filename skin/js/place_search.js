@@ -96,6 +96,7 @@ function initialize( Latitude, Longitude ) {
     infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, callback);
+
 }
 
 function callback(results, status) {
@@ -112,14 +113,17 @@ function createMarker(place) {
     var marker = new google.maps.Marker(
         {
             map: map,
-            position: place.geometry.location
+            position: place.geometry.location,
+            animation: google.maps.Animation.BOUNCE
         });
+
 
     google.maps.event.addListener(marker, 'click', function () {
         infowindow.setContent(place.name);
         infowindow.open(map, this);
 
     });
+
 }
 
 function SearchPlaceInfo( Latitude, Longitude )
