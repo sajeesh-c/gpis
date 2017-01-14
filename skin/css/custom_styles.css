@@ -274,6 +274,8 @@ body {
     color: #33373D;
     font-smoothing: antialiased;
     -webkit-tap-highlight-color: transparent;
+}
+body.home_wrap{
     overflow-y: hidden !important;
 }
 

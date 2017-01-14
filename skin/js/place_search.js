@@ -1,5 +1,15 @@
 var map;
 var infowindow;
+function getSearchTypes() {
+    var type=(typeof searchType === 'undefined')?'ALL':searchType;
+
+    if(type=='ALL'){
+        return ['food','hospital','health','restaurant','school','temple','airport','railway','petrol','church'];
+    }else{
+        type = type.toLowerCase();
+        return [type];
+    }
+}
 function initialize( Latitude, Longitude ) {
     var center = new google.maps.LatLng(Latitude,Longitude);
     map = new google.maps.Map(document.getElementById('map'), {
@@ -90,9 +100,9 @@ function initialize( Latitude, Longitude ) {
     var request = {
         location: center,
         radius: 2047,
-        types: ['food','hospital','health','restaurant','school','temple','airport','railway','petrol','church']
+        types: getSearchTypes()
     };
-
+console.log(request);
     infowindow = new google.maps.InfoWindow();
     var service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, callback);
@@ -124,9 +134,4 @@ function createMarker(place) {
 
     });
 
-}
-
-function SearchPlaceInfo( Latitude, Longitude )
-{
-     google.maps.event.addDomListener(window, 'load', initialize( Latitude, Longitude ));
 }

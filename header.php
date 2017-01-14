@@ -15,4 +15,4 @@
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/nightmapview.js"></script>
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/place_search.js"></script>
 </head>
-<body class="start ct-present is-responsive en">
+<body class="start ct-present is-responsive en <?php echo isset($isHome)?'home_wrap':'' ?>">

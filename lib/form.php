@@ -48,7 +48,7 @@ class Gpis_Lib_Search_Form
      */
     public function getCustomsearchOption()
     {
-        return isset($_POST['custom_words']) ? $_POST['custom_words'] : 'ALL';
+        return isset($_POST['customsearch']) ? $_POST['customsearch'] : 'ALL';
     }
 }
 

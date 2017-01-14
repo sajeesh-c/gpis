@@ -12,19 +12,13 @@
                     <div id="location_contianer">
                         <div id="location_pretext">
                             <div class="l-pre-1" aria-label="Suggested searches...">
-                        <span class="location_placeholder ml5">
-                            <i class="location arrow icon tiny pr2"></i>
-                        </span>
-                                <span id="location_input_sp" class="location_input_sp mr5">ALL</span>
-                                <span class="right location-dropdown"><i class="ui icon black tiny caret down left"></i></span>
+                                <span class="location_placeholder ml5">
+                                        <i class="location arrow icon tiny pr2"></i>
+                                </span>
+                                    <span id="location_input_sp" class="location_input_sp mr5"><?php echo $searchForm->getCustomsearchOption() ?></span>
+                                    <span class="right location-dropdown"><i class="ui icon black tiny caret down left"></i></span>
                             </div>
-                            <div class="l-pre-2 hidden">
-                        <span class="location_placeholder ml5">
-                            <i class="location arrow icon tiny pr2"></i>
-                            <label class="hdn" id="label_search_location">ALL</label>
-                            <input id="location_input" role="combobox" name="custom_words" value="<?php echo $searchForm->getCustomsearchOption() ?>" placeholder=" Please type a location...">
-                        </span>
-                            </div>
+
                         </div>
 
                         <!-- keywords dro down starts   -->
@@ -40,67 +34,67 @@
                                     <li class="label ttupper">Suggested Searches</li>
 
 
-                                    <li class="item" data-item_type="cat" data-item_id="8">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Food</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="9">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Hospital</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="10">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Restaurant</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="11">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>School</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="12">
+                                    <li class="item" ..>
                                         <div class="start-step-label">
                                             <span>Temple</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="13">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Airport</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="14">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Railway</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="15">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Church</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="16">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Petrol pump</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="17">
+                                    <li class="item" >
                                         <div class="start-step-label">
                                             <span>Museum</span>
                                         </div>
                                     </li>
 
-                                    <li class="item" data-item_type="cat" data-item_id="18">
+                                    <li class="item">
                                         <div class="start-step-label">
                                             <span>Zoo</span>
                                         </div>
@@ -139,3 +133,6 @@
 
     </div>
 </form>
+<script type="text/javascript">
+    var searchType = '<?php echo $searchForm->getCustomsearchOption() ?>';
+</script>

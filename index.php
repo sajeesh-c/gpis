@@ -1,5 +1,5 @@
 <?php require("lib/config.php"); ?>
-
+<?php $isHome=true; ?>
 <?php include("header.php"); ?>
     <div class="zimagery">
         <div class="zimagery-overlay">
@@ -7,7 +7,6 @@
                 <div class="logo--home"></div>
                 <h1 class="h-city-home-title">Find your destinations </h1>
                 <div class="wrapper">
-                    <?php $isHome=true; ?>
                     <?php include("search_form.php"); ?>
                 </div>
             </div>
