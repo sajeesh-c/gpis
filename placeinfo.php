@@ -2,7 +2,7 @@
 
 <?php include("header.php"); ?>
 
-    <div id="sticky_header" class="ui sticky">
+    <div id="sticky_header" class="zimagery">
         <header class="header  breadcrumb-present" id="header">
             <div class="wrapper">
                 <?php include("search_form.php"); ?>

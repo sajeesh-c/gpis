@@ -33,6 +33,113 @@
                                 <ul id="explore-by">
                                     <li class="label ttupper">Suggested Searches</li>
 
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>ALL</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>Bank</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>ATM</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>Beauty_salon</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>Book_store</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>Dentist</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>car_repair</span>
+                                        </div>
+                                    </li>
+
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>Electronics_store</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>fire_station</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>gas_station</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>gym</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>insurance_agency</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>library</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>local_government_office</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>lodging</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>mosque</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>movie_theater</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>park</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>post_office</span>
+                                        </div>
+                                    </li>
+                                    <li class="item" >
+                                        <div class="start-step-label">
+                                            <span>university</span>
+                                        </div>
+                                    </li>
 
                                     <li class="item" >
                                         <div class="start-step-label">
@@ -60,7 +167,7 @@
 
                                     <li class="item" ..>
                                         <div class="start-step-label">
-                                            <span>Temple</span>
+                                            <span>Hindu_temple</span>
                                         </div>
                                     </li>
 
@@ -84,7 +191,7 @@
 
                                     <li class="item" >
                                         <div class="start-step-label">
-                                            <span>Petrol pump</span>
+                                            <span>police</span>
                                         </div>
                                     </li>
 

@@ -996,9 +996,10 @@ html, body, #map {
 }
 
 .zimagery {
-    background-image: url(../images/earth-map.jpg);
+    background-image: url(../images/earth-bright.jpg);
     background-size: cover;
 }
+
 
 .recent_search {
     padding-left: 10px;
