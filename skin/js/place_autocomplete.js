@@ -43,4 +43,8 @@ jQuery(document).ready(function(){
         jQuery('#customsearch').val((jQuery(this).find('span').text()));
         jQuery('#search_form').submit();
     });
+
+    jQuery("#min_search").mCustomScrollbar({
+        theme:"rounded-dots-dark"
+    });
 });

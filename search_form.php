@@ -23,12 +23,9 @@
 
                         <!-- keywords dro down starts   -->
                         <div id="explore-keywords-dropdown" class="homepage ">
-                            <div id="keywords-dd" style="overflow: hidden;">
-                                <ul id="keywords-by" role="listbox">
-                                </ul>
-                            </div>
-                            <div class="keyword-search-start start-steps clearfix"
-                                 style="overflow: hidden; display: none;">
+
+                            <div id="min_search" class="keyword-search-start start-steps clearfix"
+                                 style=" display: none; height: 200px">
 
                                 <ul id="explore-by">
                                     <li class="label ttupper">Suggested Searches</li>
@@ -237,7 +234,6 @@
             <a class="recent_search" href="recent_search.php">Recent Searches</a>
             <div class="clear"></div>
         </div>
-
     </div>
 </form>
 <script type="text/javascript">

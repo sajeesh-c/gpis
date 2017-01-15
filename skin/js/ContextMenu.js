@@ -65,8 +65,8 @@ ContextMenu.prototype.onAdd=function(){
 		if(values.id){
 			menuItem.id=values.id;
 		}
-		menuItem.style.cssText='cursor:pointer; white-space:nowrap';
-		menuItem.style.color='#FFFFFF';
+		menuItem.style.cssText='cursor:pointer; white-space:nowrap; padding:0 10px;';
+		menuItem.style.background='#FFFFFF';
 		menuItem.onclick=function(){
 			google.maps.event.trigger($this, 'menu_item_selected', $this.position_, 
 				values.eventName, $this.source);

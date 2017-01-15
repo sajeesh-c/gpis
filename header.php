@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="<?= SITE_DIR ?>/skin/css/styles.css">
     <link rel="stylesheet" type="text/css" href="<?= SITE_DIR ?>/skin/css/custom_styles.css">
+    <link rel="stylesheet"type="text/css" href="<?= SITE_DIR ?>/skin/css/jquery.mCustomScrollbar.min.css">
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/jquery.min.js"></script>
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key=<?= API_KEY ?>" ></script>
@@ -16,5 +17,6 @@
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/place_search.js"></script>
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/ContextMenu.js"></script>
     <script type="text/javascript" charset="utf-8" src="<?= SITE_DIR ?>/skin/js/geometa.js"></script>
+    <script type="text/javascript" charset="utf-8"  src="<?= SITE_DIR ?>/skin/js/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
 <body class="start ct-present is-responsive en <?php echo isset($isHome)?'home_wrap':'' ?>">
