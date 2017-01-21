@@ -6,6 +6,9 @@ var resultsCount = 0;
 var iw;
 var service;
 var hostnameRegexp = new RegExp('^https?://.+?/');
+var chartBase = 'https://chart.googleapis.com/chart?chst=';
+var marker;
+var geocoder;
 
 function doGeolocation() {
     if (navigator.geolocation) {
@@ -78,12 +81,20 @@ function contains(array, item) {
 }
 
 function createContextMenu(map) {
-    var directionsRendererOptions={};
+    var directionsRendererOptions={
+        'map': map,
+        'preserveViewport': true,
+        'draggable': true
+    };
     directionsRendererOptions.draggable=false;
     directionsRendererOptions.hideRouteList=true;
     directionsRendererOptions.suppressMarkers=false;
     directionsRendererOptions.preserveViewport=false;
-    var directionsRenderer=new google.maps.DirectionsRenderer(directionsRendererOptions);
+    var directionsRenderer=new google.maps.DirectionsRenderer({
+        'map': map,
+        'preserveViewport': true,
+        'draggable': true
+    });
     var directionsService=new google.maps.DirectionsService();
 
     var contextMenuOptions={};
@@ -151,7 +162,7 @@ function createContextMenu(map) {
                 var directionsRequest={};
                 directionsRequest.destination=destinationMarker.getPosition();
                 directionsRequest.origin=originMarker.getPosition();
-                directionsRequest.travelMode=google.maps.TravelMode.DRIVING;
+                directionsRequest.travelMode=google.maps.DirectionsTravelMode.DRIVING;
 
                 directionsService.route(directionsRequest, function(result, status){
                     if(status===google.maps.DirectionsStatus.OK){
@@ -296,6 +307,7 @@ function initialize( Latitude, Longitude ) {
     // service.nearbySearch(request, callback);
 
     service.textSearch(request, addResults);
+    geocoder = new google.maps.Geocoder();
 }
 
 function callback(results, status) {
