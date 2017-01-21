@@ -95,7 +95,6 @@ function createContextMenu(map) {
     menuItems.push({className:'context_menu_item', eventName:'zoom_out_click', label:'Zoom out'});
     menuItems.push({});
     menuItems.push({className:'context_menu_item', eventName:'center_map_click', label:'Center map here'});
-    menuItems.push({className:'context_menu_item', eventName:'where_map_click', label:'Where Am I?'});
     contextMenuOptions.menuItems=menuItems;
 
     var contextMenu=new ContextMenu(map, contextMenuOptions);
@@ -173,10 +172,6 @@ function createContextMenu(map) {
             case 'center_map_click':
                 map.panTo(latLng);
                 break;
-            case 'where_map_click':
-                prepareGeolocation();
-                doGeolocation();
-                break;
         }
         if(originMarker.getMap() && destinationMarker.getMap() && document.getElementById('getDirectionsItem').style.display===''){
             //	display the 'Get directions' menu item if it is not visible and both directions origin and destination have been selected
@@ -188,7 +183,7 @@ function getSearchTypes() {
     var type=(typeof searchType === 'undefined')?'ALL':searchType;
 
     if(type=='ALL'){
-        return ['food','hospital','bank','atm','bakery','bar','beauty_salon','book_store','car_repair','dentist','doctor','electronics_store','embassy','fire_station','gas_station','gym','hardware_store','insurance_agency','jewelry_store','laundry','lawyer','library','liquor_store','local_government_office','lodging','mosque','movie_theater','park','parking','pharmacy','physiotherapist','post_office','shopping_mall','stadium','taxi_stand','train_station','university','travel_agency','restaurant','school','hindu_temple','airport','railway','police','church'];
+        return ['hospital','bank','book_store','dentist','fire_station','gym','jewelry_store','library','local_government_office','lodging','movie_theater','park','parking','pharmacy','post_office','shopping_mall','stadium','taxi_stand','train_station','university','restaurant','school','hindu_temple','airport','railway','police','church'];
     }else{
         type = type.toLowerCase();
         return [type];
